@@ -1,0 +1,19 @@
+.root{
+    background-color: #111;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PayPalButtons{
+    margin-top: 2rem;
+    width: 500px;
+}
+.typhography{
+    margin-top: 10rem !important;
+}
+@media (max-width:550px){
+    .PayPalButtons{
+        width: 80%;
+    } 
+}

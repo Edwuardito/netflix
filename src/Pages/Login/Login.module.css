@@ -1,0 +1,54 @@
+.root{
+    background: url('../../images/HeroBanner.jpg');
+    position: relative;
+    height: 100vh;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.info{
+    position: relative;
+    color: #fff;
+    z-index: 15;
+    text-align: center;
+}
+.info h4{
+    font-weight: 800;
+}
+.info h5{
+    font-weight: 400;
+}
+.inputBlock{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:400px){
+    .logo{
+        width: 40%;
+    }
+    .iniciarSesion{
+        display:none;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputBlock{
+        width: 80%;
+    }
+    .inputBlock button{
+        font-size: 0.7rem;
+    }
+}

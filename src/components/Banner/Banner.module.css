@@ -1,0 +1,33 @@
+.root{
+    background: url('../../images/Banner-CasaDePapel.jpg');
+    width: 100%;
+    height: 440px;
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
+    color: white;
+}
+.fadeButtonBanner{
+    position: absolute;
+    top: 30vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
+}
+.info{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    width: 600px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-shadow: 1px 1px 2px black;
+}
+@media (max-width:650px){
+    .info{
+        width: 80%;
+    }
+}
